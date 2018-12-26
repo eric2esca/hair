@@ -1,0 +1,27 @@
+{
+  "name": "haircuts",
+  "version": "1.0.0",
+  "description": "\"A sample Node.js app for haircut website with stripe api payment integration\"",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7",
+    "stripe": "^6.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "stripe",
+    "body-parser",
+    "path"
+  ],
+  "author": "Eric Escamilla",
+  "license": "ISC"
+}
